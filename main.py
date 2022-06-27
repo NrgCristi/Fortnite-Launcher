@@ -38,7 +38,7 @@ async def add_account():
 
     log.debug('add_account flow started.')
 
-    print()
+    
     print(crayons.green('Add Account', bold=True))
 
     AUTHORIZATION_URL = 'https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code'
@@ -111,7 +111,7 @@ async def remove_account():
 
     log.debug('remove_account flow started.')
 
-    print()
+    
     print(crayons.red('Remove Account', bold=True))
 
     while True:
@@ -252,7 +252,7 @@ async def start():
 
     while True:
 
-        print()
+        
 
         print(f'\n{crayons.cyan("Fortnite Launcher", bold=True)} | {crayons.white(f"Beta v{v}", bold=True)}\n')
 
